@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Your Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">TravelBloom</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" id="navSearchInput" placeholder="Enter a destination or keyword">
+                <button id="navSearchBtn">Search</button>
+                <button id="navResetBtn">Clear</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-overlay">
+            <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+            <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+            <button class="book-btn">BOOK NOW</button>
+        </div>
+    </section>
+
+    <!-- Travel Recommendations Section -->
+    <section class="search-section">
+        <div class="container">
+            <h2 class="section-title">Find Your Perfect Destination</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Enter 'beach', 'temple', or 'country'...">
+                <button id="searchBtn" class="search-btn">Search</button>
+                <button id="clearBtn" class="clear-btn">Clear Results</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="results-section">
+        <div class="container">
+            <h2 class="section-title" id="resultsTitle">Travel Recommendations</h2>
+            <div id="resultsContainer">
+                <div class="loading" id="loadingMessage">Enter a keyword above to see travel recommendations</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="hero">
+        <div class="container">
+            <h1>About TravelBloom</h1>
+            <p>Your trusted partner in discovering the world's most amazing destinations.</p>
+        </div>
+    </section>
+
+    <section class="company-info">
+        <div class="container">
+            <h2 class="section-title">Our Story</h2>
+            <div class="company-content">
+                <div class="company-text">
+                    <h2>Making Travel Dreams Reality Since 2020</h2>
+                    <p>TravelBloom was founded with a simple mission: to make extraordinary travel experiences accessible to everyone. We believe that exploring new places transforms perspectives and enriches lives.</p>
+                    <p>Our team of travel experts carefully curates each recommendation, ensuring you get authentic, memorable experiences that go beyond typical tourist attractions.</p>
+                    <p>With partnerships across 50+ countries and a network of local guides, we bring you insider access to the world's most captivating destinations.</p>
+                </div>
+                <div class="company-image">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; font-size: 1.2rem;">
+                        TravelBloom Team
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Travel Experts</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image" style="background: #3498db;">
+                        <span>JS</span>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">John Smith</h3>
+                        <p class="member-role">CEO & Founder</p>
+                        <p class="member-bio">John founded TravelBloom after traveling to 50+ countries. His passion is connecting people with transformative travel experiences.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image" style="background: #e74c3c;">
+                        <span>SD</span>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Sarah Johnson</h3>
+                        <p class="member-role">Travel Director</p>
+                        <p class="member-bio">Sarah specializes in Asian destinations and has lived in Japan, Thailand, and Vietnam. She ensures every detail is perfect.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image" style="background: #2ecc71;">
+                        <span>MD</span>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Michael Davis</h3>
+                        <p class="member-role">Adventure Specialist</p>
+                        <p class="member-bio">Michael designs unique adventure itineraries across South America and Africa for thrill-seeking travelers.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image" style="background: #f39c12;">
+                        <span>EW</span>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Emily Wilson</h3>
+                        <p class="member-role">Luxury Travel Curator</p>
+                        <p class="member-bio">Emily creates bespoke luxury experiences across Europe's most exclusive destinations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                📍
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Address</h4>
+                                <p>123 Travel Street, Suite 100<br>San Francisco, CA 94105</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                📞
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone Number</h4>
+                                <p>+1 (555) 123-TRAVEL</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                ✉️
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>hello@travelbloom.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                    Saturday: 10:00 AM - 4:00 PM<br>
+                    Sunday: Closed</p>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea id="message" class="form-textarea" placeholder="Tell us about your dream destination..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Visit Our Office</h2>
+            <div class="map-placeholder">
+                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+                    <div style="font-size: 3rem; margin-bottom: 20px;">🗺️</div>
+                    <p>Interactive Map Location</p>
+                    <p style="margin-top: 10px; font-size: 1rem; color: #666;">San Francisco, California</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TravelBloom. All rights reserved.</p>
+            <p>Making your travel dreams blossom</p>
+            <div style="margin-top: 20px;">
+                <span style="margin: 0 10px;">📘 Facebook</span>
+                <span style="margin: 0 10px;">📷 Instagram</span>
+                <span style="margin: 0 10px;">🐦 Twitter</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
