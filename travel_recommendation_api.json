@@ -1,0 +1,107 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Japan",
+        "timezone": "Asia/Tokyo",
+        "cities": [
+          {
+            "name": "Tokyo",
+            "imageUrl": "https://images.unsplash.com/photo-1540959733332-8a43b8d82583?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "Experience the vibrant energy of Japan's capital city, where traditional culture meets modern innovation."
+          },
+          {
+            "name": "Kyoto",
+            "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "Discover ancient temples, traditional gardens, and geisha culture in Japan's cultural heartland."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Italy",
+        "timezone": "Europe/Rome",
+        "cities": [
+          {
+            "name": "Rome",
+            "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "Walk through history in the Eternal City, home to ancient ruins, Renaissance art, and delicious cuisine."
+          },
+          {
+            "name": "Venice",
+            "imageUrl": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "Explore the romantic canals and stunning architecture of this unique floating city."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "United States",
+        "timezone": "America/New_York",
+        "cities": [
+          {
+            "name": "New York",
+            "imageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "The city that never sleeps offers iconic landmarks, world-class museums, and diverse neighborhoods."
+          },
+          {
+            "name": "Los Angeles",
+            "imageUrl": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            "description": "Home to Hollywood, beautiful beaches, and perfect weather, LA offers entertainment and culture."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat",
+        "location": "Cambodia",
+        "timezone": "Asia/Phnom_Penh",
+        "imageUrl": "https://images.unsplash.com/photo-1588417109557-2dd5c2d8648f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "The largest religious monument in the world, this temple complex is a masterpiece of Khmer architecture."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal",
+        "location": "India",
+        "timezone": "Asia/Kolkata",
+        "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "An ivory-white marble mausoleum and one of the most iconic symbols of love and architectural beauty."
+      },
+      {
+        "id": 3,
+        "name": "Borobudur",
+        "location": "Indonesia",
+        "timezone": "Asia/Jakarta",
+        "imageUrl": "https://images.unsplash.com/photo-1589330273594-fade1a5ddb68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "The world's largest Buddhist temple, featuring nine stacked platforms and over 500 Buddha statues."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Whitehaven Beach",
+        "location": "Australia",
+        "timezone": "Australia/Brisbane",
+        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "Famous for its white silica sand and crystal-clear turquoise waters in the Whitsunday Islands."
+      },
+      {
+        "id": 2,
+        "name": "Anse Source d'Argent",
+        "location": "Seychelles",
+        "timezone": "Indian/Mahe",
+        "imageUrl": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "One of the most photographed beaches in the world with stunning granite boulders and clear waters."
+      },
+      {
+        "id": 3,
+        "name": "Navagio Beach",
+        "location": "Greece",
+        "timezone": "Europe/Athens",
+        "imageUrl": "https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        "description": "Also known as Shipwreck Beach, this isolated cove features a rusting shipwreck on white sand surrounded by towering cliffs."
+      }
+    ]
+  }
